@@ -106,7 +106,7 @@ int main()
 			mem::PatchEx((BYTE*)frenzyAddr, (BYTE*)&maxFrenzy, sizeof(maxFrenzy), hProcess);
 		}
 
-		if (GetAsyncKeyState(VK_NUMPAD1) & 1)
+		if (GetAsyncKeyState(VK_NUMPAD2) & 1)
 		{
 			bDblow = !bDblow;
 
