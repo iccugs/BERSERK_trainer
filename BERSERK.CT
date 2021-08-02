@@ -4,7 +4,7 @@
     <CheatEntry>
       <ID>6</ID>
       <Description>"Health Pointer"</Description>
-      <LastState Value="0" RealAddress="250972CAEB4"/>
+      <LastState Value="7599" RealAddress="29432A10EB4"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"BERSERK.exe"+007F0DD0</Address>
       <Offsets>
@@ -15,7 +15,7 @@
     <CheatEntry>
       <ID>8</ID>
       <Description>"Max Health Pointer"</Description>
-      <LastState Value="0" RealAddress="250972CAEB0"/>
+      <LastState Value="7599" RealAddress="29432A10EB0"/>
       <VariableType>4 Bytes</VariableType>
       <Address>"BERSERK.exe"+007F0DD0</Address>
       <Offsets>
@@ -26,7 +26,7 @@
     <CheatEntry>
       <ID>13</ID>
       <Description>"Frenzy Pointer"</Description>
-      <LastState Value="0" RealAddress="250972CAED4"/>
+      <LastState Value="0" RealAddress="29432A10ED4"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"BERSERK.exe"+007F0DD0</Address>
@@ -38,7 +38,7 @@
     <CheatEntry>
       <ID>15</ID>
       <Description>"Max Frenzy Pointer"</Description>
-      <LastState Value="0" RealAddress="250972CAED0"/>
+      <LastState Value="1000" RealAddress="29432A10ED0"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"BERSERK.exe"+007F0DD0</Address>
@@ -50,28 +50,13 @@
     <CheatEntry>
       <ID>17</ID>
       <Description>"Death Blow Pointer"</Description>
-      <LastState Value="0" RealAddress="250972CB064"/>
+      <LastState Value="0" RealAddress="29432A11064"/>
       <ShowAsSigned>0</ShowAsSigned>
       <VariableType>Float</VariableType>
       <Address>"BERSERK.exe"+007F0DD0</Address>
       <Offsets>
         <Offset>E04</Offset>
         <Offset>20</Offset>
-      </Offsets>
-    </CheatEntry>
-    <CheatEntry>
-      <ID>19</ID>
-      <Description>"Gold Pointer"</Description>
-      <LastState Value="9999999" RealAddress="2504E249BB4"/>
-      <VariableType>4 Bytes</VariableType>
-      <Address>"BERSERK.exe"+007C4600</Address>
-      <Offsets>
-        <Offset>EE4</Offset>
-        <Offset>8</Offset>
-        <Offset>610</Offset>
-        <Offset>78</Offset>
-        <Offset>100</Offset>
-        <Offset>90</Offset>
       </Offsets>
     </CheatEntry>
   </CheatEntries>
