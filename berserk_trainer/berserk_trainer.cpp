@@ -8,7 +8,7 @@
 #include "mem.h"
 #include "ascii.h"
 
-bool bHealth = false, bFrenzy = false, bDBlow = false, bGold = false, bMenu = true;
+bool bHealth = false, bFrenzy = false, bDblow = false,/* bGold = false,*/ bMenu = true;
 
 void Menu()
 {
@@ -19,7 +19,7 @@ void Menu()
 		std::cout << "===========================\n\n";
 		std::cout << "NUM0 = Infinite Health = " << bHealth << "\n";
 		std::cout << "NUM1 = Max Frenzy = " << bFrenzy << "\n";
-		std::cout << "NUM2 = Max Death Blow = " << bDBlow << "\n\n";
+		std::cout << "NUM2 = Max Death Blow = " << bDblow << "\n\n";
 		//std::cout << "HOME = Character Info" << "\n";
 		std::cout << "DELETE = EXIT TRAINER\n";
 	}
@@ -108,12 +108,12 @@ int main()
 
 		if (GetAsyncKeyState(VK_NUMPAD1) & 1)
 		{
-			bDBlow = !bDBlow;
+			bDblow = !bDblow;
 
 			ClearScreen();
 			Menu();
 		}
-		if (bDBlow)
+		if (bDblow)
 		{
 			mem::PatchEx((BYTE*)dblowAddr, (BYTE*)&maxDblow, sizeof(maxDblow), hProcess);
 		}
