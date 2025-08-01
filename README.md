@@ -1,4 +1,4 @@
-# BERSERK Trainer
+# BERSERK and the Band of the Hawk Trainer
 
 A C++ console trainer for BERSERK and the Band of the Hawk on Steam, featuring x64 executable, complete source code, and accompanying Cheat Engine table for pointer addresses.
 
